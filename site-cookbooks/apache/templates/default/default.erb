@@ -1,12 +1,12 @@
 <VirtualHost *:80>
 	ServerAdmin webmaster@localhost
 
-	DocumentRoot /vagrant/tdiary
+	DocumentRoot /var/www
 	<Directory />
 		Options FollowSymLinks
 		AllowOverride None
 	</Directory>
-	<Directory /vagrant/tdiary/>
+	<Directory /var/www/>
 		Options Indexes FollowSymLinks MultiViews ExecCGI
 		AllowOverride All
 		Order allow,deny

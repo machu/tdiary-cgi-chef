@@ -29,3 +29,9 @@ cookbook_file "#{install_dir}/tdiary-#{version}/tdiary.conf" do
 	mode 0644
 end
 
+template "#{install_dir}/tdiary-#{version}/.htaccess" do
+	owner "www-data"
+	group "www-data"
+	mode 0644
+	source "dot.htaccess"
+end
