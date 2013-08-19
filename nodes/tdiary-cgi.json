@@ -1,6 +1,7 @@
 {
   "run_list":[
     "apache",
-    "ruby"
+    "ruby",
+    "tdiary"
   ]
 }
