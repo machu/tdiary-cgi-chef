@@ -1,5 +1,6 @@
 {
   "run_list":[
-    "apache"
+    "apache",
+    "ruby"
   ]
 }
