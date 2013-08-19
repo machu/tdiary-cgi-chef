@@ -22,6 +22,3 @@ template "/etc/apache2/sites-available/default" do
 	notifies :reload, "service[apache2]"
 end
 
-package "ruby1.9.3" do
-	action :install
-end
