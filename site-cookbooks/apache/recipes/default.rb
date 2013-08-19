@@ -19,4 +19,5 @@ template "/etc/apache2/sites-available/default" do
 	owner "root"
 	group "root"
 	mode  0644
+	notifies :reload, "service[apache2]"
 end
